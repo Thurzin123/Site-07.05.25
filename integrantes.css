@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: rgb(225, 225, 225);
+}
+
+header {
+    background: linear-gradient(45deg, rgb(51, 4, 4), rgb(255, 0, 0));
+    color: #f0f8ff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+}
+
+.menu a {
+    color: #FFD800;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        gap: 10px;
+        font-size: 1rem;
+    }
+}
+
+.titulo {
+    padding: 10px;
+    background: linear-gradient(60deg, rgb(96, 0, 0), rgb(255, 213, 0));
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+}
+
+.texto {
+    padding: 20px;
+    background: linear-gradient(60deg, rgb(32, 3, 3), rgb(160, 4, 4));
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.footer {
+    background: linear-gradient(45deg, rgb(51, 4, 4), rgb(255, 0, 0));
+    color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: x-large;
+    text-align: center;
+    gap: 20px;
+}
+.icone1 img{
+    width: 150px;       
+    height: 150px;
+    object-fit: cover;  
+    border-radius: 50%; 
+    display: block;
+    margin-bottom: 20px;
+}
+.icone2 img{
+    width: 150px;       
+    height: 150px;
+    object-fit: cover;  
+    border-radius: 50%; 
+    display: block;
+    margin-bottom: 20px;
+}
+.c1{
+      padding: 30px;
+      background: linear-gradient(60deg, rgb(32, 3, 3), rgb(160, 4, 4));
+      border-radius: 10px;
+      margin: 30px;
+      font-size: 30px;
+     line-height: 1.6;
+}
+.c2{
+    padding: 30px;
+    background: linear-gradient(60deg, rgb(32, 3, 3), rgb(160, 4, 4));
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 30px;
+   line-height: 1.6;
+}
+
+
+
